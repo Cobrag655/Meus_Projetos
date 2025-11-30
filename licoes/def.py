@@ -21,7 +21,7 @@ print(nome(parametro, parametro2))
 
 # #outra forma
 # #funçao docs (parametro padrao)
-# def cu(nome = "amigo"):
+# def printado(nome = "amigo"):
 #     print(f"Ola, {nome}")
 
-# cu() #ele vai usar o padrao pre estabelecido la em cima
+# printado() #ele vai usar o padrao pre estabelecido la em cima

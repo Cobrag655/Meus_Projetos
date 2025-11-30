@@ -11,6 +11,6 @@ numero[2] = 10
 print(numero[2])
 
 #adicionando um elemento
-numero.append("popo")
+numero.append("carro")
 print(numero)
 

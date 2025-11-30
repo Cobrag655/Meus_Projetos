@@ -5,7 +5,7 @@ cores = ("Azul", "vermelho", "amarelo", "preto", "pedro")
 print(cores[1])
 
 #tentando modificar informaçoes da tupla
-cores[1] = "puta"
+cores[1] = "gelo"
 print(cores) #inalteravel, erro de tipo
 
 
