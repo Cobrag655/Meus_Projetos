@@ -11,9 +11,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 #abrir o site
-driver.get("http://www.casasbahia.com.br")
+driver.get("<URL>")
 try:
-    WebDriverWait(driver, 20).until(EC.title_contains("Casas barriga"))
+    WebDriverWait(driver, 20).until(EC.title_contains("Titulo Generico"))
     #clica nas coordenadas especificas
     x = 665
     y = 386
