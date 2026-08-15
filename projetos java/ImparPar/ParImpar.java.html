@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>ParImpar.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+.ln { color: #4b5059; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ParImpar.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+<a name="l2"><span class="ln">2    </span></a>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">public class </span><span class="s1">ParImpar </span><span class="s2">{</span>
+<a name="l4"><span class="ln">4    </span></a>    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+<a name="l5"><span class="ln">5    </span></a>        <span class="s1">Scanner scanner </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+<a name="l6"><span class="ln">6    </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Qual numero você quer saber se é par ou impar?&quot;</span><span class="s2">);</span>
+<a name="l7"><span class="ln">7    </span></a>        <span class="s0">int </span><span class="s1">Numero </span><span class="s2">= </span><span class="s1">scanner</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">();</span>
+<a name="l8"><span class="ln">8    </span></a>        <span class="s0">int </span><span class="s1">Resultado </span><span class="s2">= (</span><span class="s1">Numero </span><span class="s2">%</span><span class="s4">2</span><span class="s2">);</span>
+<a name="l9"><span class="ln">9    </span></a>        <span class="s0">if </span><span class="s2">(</span><span class="s1">Resultado </span><span class="s2">== </span><span class="s4">0</span><span class="s2">) {</span>
+<a name="l10"><span class="ln">10   </span></a>            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;O numero &quot; </span><span class="s2">+ </span><span class="s1">Numero </span><span class="s2">+ </span><span class="s3">&quot; divido por 2 dá resto: &quot; </span><span class="s2">+ </span><span class="s1">Resultado </span><span class="s2">+ </span><span class="s3">&quot;!&quot;</span><span class="s2">);</span>
+<a name="l11"><span class="ln">11   </span></a>            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Logo o seu numero é Par!&quot;</span><span class="s2">);</span>
+<a name="l12"><span class="ln">12   </span></a>        <span class="s2">}</span>
+<a name="l13"><span class="ln">13   </span></a>        <span class="s0">else </span><span class="s2">{</span>
+<a name="l14"><span class="ln">14   </span></a>            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;O numero &quot; </span><span class="s2">+ </span><span class="s1">Numero </span><span class="s2">+ </span><span class="s3">&quot; divido por 2 é igual a: &quot; </span><span class="s2">+ </span><span class="s1">Resultado </span><span class="s2">+ </span><span class="s3">&quot;!&quot;</span><span class="s2">);</span>
+<a name="l15"><span class="ln">15   </span></a>            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Logo o seu numero é Impar!&quot;</span><span class="s2">);</span>
+<a name="l16"><span class="ln">16   </span></a>        <span class="s2">}</span>
+<a name="l17"><span class="ln">17   </span></a>
+<a name="l18"><span class="ln">18   </span></a>    <span class="s2">}</span>
+<a name="l19"><span class="ln">19   </span></a><span class="s2">}</span>
+<a name="l20"><span class="ln">20   </span></a></pre>
+</body>
+</html>
